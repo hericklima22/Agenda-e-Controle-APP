@@ -1,0 +1,1 @@
+export { AlugueisScreen } from "./AlugueisScreen";
