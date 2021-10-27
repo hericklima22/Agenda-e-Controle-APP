@@ -7,9 +7,14 @@ const styles = StyleSheet.create({
     paddingTop: 13,
     alignItems: "flex-start",
     justifyContent: "center",
-    backgroundColor: "yellow",
+    backgroundColor: "#ffd700",
   },
-  title: { fontSize: 50 },
+  title: {
+    fontSize: 40,
+    marginLeft: "5%",
+    fontFamily: "serif",
+  },
+  voltar: {},
 });
 
 export default styles;

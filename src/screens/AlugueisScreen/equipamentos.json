@@ -1,0 +1,94 @@
+{
+  "equipamentos": [
+    {
+      "id": 1,
+      "tipo": "Betoneira",
+      "nome_cliente": "Cliente 1",
+      "data_vencimento": "10/11/2021"
+    },
+    {
+      "id": 2,
+      "tipo": "Betoneira",
+      "nome_cliente": "Cliente 2",
+      "data_vencimento": "10/11/2021"
+    },
+    {
+      "id": 3,
+      "tipo": "Betoneira",
+      "nome_cliente": "Cliente 3",
+      "data_vencimento": "10/11/2021"
+    },
+    {
+      "id": 4,
+      "tipo": "Betoneira",
+      "nome_cliente": "Cliente 4",
+      "data_vencimento": "10/11/2021"
+    },
+    {
+      "id": 5,
+      "tipo": "Betoneira",
+      "nome_cliente": "Cliente 5",
+      "data_vencimento": "10/11/2021"
+    },
+    {
+      "id": 6,
+      "tipo": "Betoneira",
+      "nome_cliente": "Cliente 6",
+      "data_vencimento": "10/11/2021"
+    },
+    {
+      "id": 7,
+      "tipo": "Betoneira",
+      "nome_cliente": "Cliente 7",
+      "data_vencimento": "10/11/2021"
+    },
+    {
+      "id": 8,
+      "tipo": "Betoneira",
+      "nome_cliente": "Cliente 8",
+      "data_vencimento": "10/11/2021"
+    },
+    {
+      "id": 9,
+      "tipo": "Betoneira",
+      "nome_cliente": "Cliente 9",
+      "data_vencimento": "10/11/2021"
+    },
+    {
+      "id": 10,
+      "tipo": "Betoneira",
+      "nome_cliente": "Cliente 10",
+      "data_vencimento": "10/11/2021"
+    },
+    {
+      "id": 11,
+      "tipo": "Betoneira",
+      "nome_cliente": "Cliente 11",
+      "data_vencimento": "10/11/2021"
+    },
+    {
+      "id": 12,
+      "tipo": "Betoneira",
+      "nome_cliente": "Cliente 12",
+      "data_vencimento": "10/11/2021"
+    },
+    {
+      "id": 13,
+      "tipo": "Betoneira",
+      "nome_cliente": "Cliente 13",
+      "data_vencimento": "10/11/2021"
+    },
+    {
+      "id": 14,
+      "tipo": "Betoneira",
+      "nome_cliente": "Cliente 14",
+      "data_vencimento": "10/11/2021"
+    },
+    {
+      "id": 15,
+      "tipo": "Betoneira",
+      "nome_cliente": "Cliente 15",
+      "data_vencimento": "10/11/2021"
+    }
+  ]
+}
