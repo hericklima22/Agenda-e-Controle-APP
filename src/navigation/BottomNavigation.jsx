@@ -16,6 +16,7 @@ export function BottomNavigation() {
         tabBarStyle: { height: BOTTOM_TAB_HEIGHT, alignItems: "center" },
         tabBarItemStyle: { padding: 10 },
         tabBarInactiveTintColor: "#383838",
+        tabBarActiveBackgroundColor: "#ffd700",
       }}
     >
       <Tab.Screen
