@@ -1,7 +1,12 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { FontAwesome5 } from "@expo/vector-icons";
-import { AlugueisScreen, ClientesScreen, AgendaScreen } from "../screens";
+import {
+  AlugueisScreen,
+  ClientesScreen,
+  AgendaScreen,
+  CalculadoraScreen,
+} from "../screens";
 
 const Tab = createBottomTabNavigator();
 export const BOTTOM_TAB_HEIGHT = 75;
@@ -12,7 +17,7 @@ export function BottomNavigation() {
       screenOptions={{
         headerShown: false,
         tabBarActiveTintColor: "#2D48BA",
-        tabBarLabelStyle: { fontSize: 20 },
+        tabBarLabelStyle: { fontSize: 15 },
         tabBarStyle: { height: BOTTOM_TAB_HEIGHT, alignItems: "center" },
         tabBarItemStyle: { padding: 10 },
         tabBarInactiveTintColor: "#383838",
@@ -49,6 +54,16 @@ export function BottomNavigation() {
           ),
         }}
         component={AgendaScreen}
+      />
+      <Tab.Screen
+        name="Calculadora"
+        options={{
+          tabBarLabel: "Calculadora",
+          tabBarIcon: ({ color }) => (
+            <FontAwesome5 name="calculator" size={30} color={color} />
+          ),
+        }}
+        component={CalculadoraScreen}
       />
     </Tab.Navigator>
   );
