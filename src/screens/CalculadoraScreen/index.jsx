@@ -14,7 +14,7 @@ const initialState = {
 
 export function CalculadoraScreen() {
   const [state, setState] = useState(initialState);
-  console.log(state);
+  // console.log(state);
 
   const addDigit = (n) => {
     const clearDisplay = state.displayValue === "0" || state.clearDisplay;
@@ -32,7 +32,7 @@ export function CalculadoraScreen() {
       const values = [...state.values];
       values[state.current] = newValue;
       setState({ ...state, displayValue, values, clearDisplay: false });
-      console.log(values);
+      // console.log(values);
     }
   };
 
